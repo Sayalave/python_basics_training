@@ -8,7 +8,7 @@ The only prerequisites for the traiing is Python 3.7. Throughout the training, w
 
 ## Install Python 3.7
 * Open the terminal. If you don’t how to open the terminal, here is a [video}(https://www.youtube.com/watch?v=zw7Nd67_aFw)
-* Install Homebrew:
+* Install Homebrew: 
 ``` /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 * Install Python: 
@@ -16,10 +16,45 @@ The only prerequisites for the traiing is Python 3.7. Throughout the training, w
 brew install python
 ```
 
-## Setup a virtual environment
+## Clone repository
 * Open the terminal. 
 * Go to your home directory in the terminal: 
 ```
 cd
 ```
-* If you want your home directory to shown in the Finder sidebar, you can follow this [video](https://www.youtube.com/watch?v=-A69alGX1Sk)
+* If you want your home directory to be shown in the Finder sidebar, you can follow this [video](https://www.youtube.com/watch?v=-A69alGX1Sk)
+* Clone this repository in your local machine:
+```
+git clone https://github.com/Sayalave/python_basics_training
+```
+
+## Setup a virtual environment
+- In the terminal, go to the training directory:
+```
+cd python_basics_training
+```
+* Install virtualenv
+```
+pip3 install virtualenv
+```
+* Create a virtual environment named “ve”: 
+```
+virtualenv ve
+```
+* Activate the virtual environment and install the requirements: source ve/bin/activate && pip install -r requirements.txt
+
+## How to start Jupyter
+* In the terminal, go to the training directory:
+```
+cd ~/python_basics_training
+```
+* Start Jupyter:
+```
+jupyter notebook
+```
+* Jupyter will now be available in you default browser in the URL: http://localhost:8888/tree
+* Make sure that Jupyter works by opening your first notebook. In Jupyter, navigate to the *session_1* directory and open the file *session_1.ipynb*. 
+
+
+
+
