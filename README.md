@@ -8,10 +8,11 @@ The only prerequisites for the training is Python 3.7. Throughout the training, 
 
 ## Install Python 3.7
 * Open the terminal. If you don’t know how to open the terminal, here is a [video](https://www.youtube.com/watch?v=zw7Nd67_aFw)
-* Install Homebrew: 
+* Install Homebrew by running the following command in the terminal. This process may take a few minutes and may also ask for your computer password. It is also possible that is will ask you whether you want to install Xcode (just follow the instructions prompted in the terminal): 
 ``` 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+
 * Install Python: 
 ```
 brew install python
@@ -19,6 +20,10 @@ brew install python
 
 ## Clone repository
 * Open the terminal. 
+* Install git:
+```
+brew install git
+```
 * Go to your home directory in the terminal: 
 ```
 cd
@@ -42,14 +47,21 @@ pip3 install virtualenv
 ```
 virtualenv ve
 ```
-* Activate the virtual environment and install the requirements: source ve/bin/activate && pip install -r requirements.txt
+* Activate the virtual environment and install the requirements: 
+```
+source ve/bin/activate && pip install -r requirements.txt
+```
 
 ## How to start Jupyter
 * In the terminal, go to the training directory:
 ```
 cd ~/python_basics_training
 ```
-* Start Jupyter:
+* Source your virtual environment and install requirements:
+```
+source ve/bin/activate && pip install -r requirements.txt
+```
+* Now that you are within your virtual environment, start Jupyter:
 ```
 jupyter notebook
 ```
