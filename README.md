@@ -8,9 +8,8 @@ The only prerequisites for the traiing is Python 3.7. Throughout the training, w
 
 ## Install Python 3.7
 * Open the terminal. If you don’t how to open the terminal, here is a [video}(https://www.youtube.com/watch?v=zw7Nd67_aFw)
-* Install Homebrew: 
-``` /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+* Install Homebrew: ` 
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 * Install Python: 
 ```
 brew install python
