@@ -68,6 +68,28 @@ jupyter notebook
 * Jupyter will now be available in you default browser in the URL: http://localhost:8888/tree
 * Make sure that Jupyter works by opening your first notebook. In Jupyter, navigate to the *session_1* directory and open the file *session_1.ipynb*. 
 
+## How to refresh your local copy of this repository
+* Sometimes you will want to update the local copy of this repository. For example, to get the new homeworks. 
+* In the terminal, go to the training directory:
+```
+cd ~/python_basics_training
+```
+* Source your virtual environment and install requirements:
+```
+source ve/bin/activate && pip install -r requirements.txt
+```
+
+## How to work on a homework 
+* You should have a directory with your work named `mywork_{yourname}` within the python_basics_training directory. For example, mine should be `mywork_salvador`
+* In the directory `homeworks` you will find the raw version of the homeworks. 
+* Copy the notebook with the homework that you want to work on from the `homeworks` directory to the `mywork_{yourname}` directory.
+* You can work on the notebooks that you just copied to `mywork_{yourname}`.
+
+
+
+
+
+
 
 
 
