@@ -80,7 +80,7 @@ git checkout -- . && git pull
 ```
 
 ## How to work on a homework 
-* You should have a directory for your work named `mywork` within the python_basics_training directory. For example, mine should be `mywork_salvador`
+* You should have a directory for your work named `mywork` within the python_basics_training directory.
 * In the directory `homeworks` you will find the raw version of the homeworks. 
 * Copy the notebook with the homework that you want to work on from the `homeworks` directory to the `mywork` directory.
 * You can work on the notebooks that you just copied to `mywork`.
