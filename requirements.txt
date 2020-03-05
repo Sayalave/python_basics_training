@@ -4,3 +4,4 @@ sqlalchemy==1.2.16
 jupyter==1.0.0
 python-highcharts
 matplotlib==3.0.0
+sodapy
